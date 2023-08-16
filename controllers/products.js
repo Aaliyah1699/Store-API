@@ -1,9 +1,9 @@
 const getAllProductsStatic = async (req, res) => {
-  res.status(200).json({ mgs: "products testing route" });
+  res.status(200).json({ msg: "products testing route" });
 };
 
 const getAllProducts = async (req, res) => {
-  res.status(200).json({ mgs: "products route" });
+  res.status(200).json({ msg: "products route" });
 };
 
 module.exports = { getAllProducts, getAllProductsStatic };
